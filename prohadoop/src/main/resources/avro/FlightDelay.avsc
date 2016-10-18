@@ -1,0 +1,15 @@
+{"namespace": "org.apress.prohadoop.avro",
+ "type": "record",
+ "name": "FlightDelay",
+ "fields": [
+     {"name": "year", "type": "int"},
+     {"name": "month",  "type": "int"},
+     {"name": "date", "type": "int"},
+     {"name": "dayOfWeek", "type": "int"},
+     {"name": "depDelay", "type": ["int", "null"]},
+     {"name": "arrDelay", "type": ["int", "null"]},
+     {"name": "origin", "type": "string"},
+     {"name": "destination", "type": "string"},
+     {"name": "carrier", "type": "string"}
+ ]
+}
